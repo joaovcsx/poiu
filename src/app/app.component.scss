@@ -1,0 +1,47 @@
+.app-container {
+    height: 100%;
+    width: 100%;
+    background: white;
+    color: black;
+    font-family: system-ui;
+
+    .menu-app {
+        width: 55px;
+    }
+    
+    mat-sidenav.collapsed {
+        min-width: 288px;
+        max-width: 288px;
+    }
+
+    mat-sidenav-content.collapsed {
+        margin-left: 288px !important;
+    }
+
+    .menu-descriptio {
+        color: white;
+        padding-left: 20px;
+    }
+
+    ::ng-deep .mat-list-item-content:not(:empty) {
+        padding-left: 0!important; 
+    }
+
+    .nav-button {
+
+        padding: 8px;
+        color: #424242;
+        background-color: #424242;
+
+        .button-menu {
+            background-color: #424242;
+            padding: 0px;
+            margin-left: 7px;
+            min-width: auto;
+        }
+
+        .icon-menu {
+            color: #ffc555;
+        }
+    }
+}
